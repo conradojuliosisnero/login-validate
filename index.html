@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <script src="https://kit.fontawesome.com/43cf05dd1c.js" crossorigin="anonymous"></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@900&family=REM:wght@100;200;300;400;500;600;700&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>formulario</title>
+	</head>
+	<body>
+		<!-- form contend  -->
+		<form id="form">
+            <!-- contend  -->
+			<div class="contend__form">
+                <div class="contend__form--tittle">
+                    <label>
+                        Tittle
+                    </label>
+                </div>
+				<div class="contend__form--text">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+						dicta aut ipsam, sunt sapiente facere praesentium ullam veniam
+						eveniet aspernatur cum! Eos quaerat labore aut quia alias suscipit
+						natus voluptates.
+					</p>
+				</div>
+				<div class="contend__form--logins">
+					<img src="img/google_buscador.png" alt="">
+					<img src="img/facebook-redes-sociales.png" alt="">
+				</div>
+			</div>
+			<!-- form inputs  -->
+			<div class="form__inputs--container">
+				<div class="form__tittle">
+					<h1>LOGIN</h1>
+				</div>
+				<!-- form inputs  -->
+				<div class="form__inputs">
+                    <input class="form__input--text" type="text" placeholder="UserName" />
+					<!-- leyenda  -->
+					<label class="leyend form__input__leyend--username"> Este campo es requerido</label>
+
+                    <div class="form__container__input--password">
+                    <input class="form__input--password" type="password" placeholder="Password" />
+					<!-- leyenda  -->
+					<label class="leyend form__input__leyend--password"> Este campo es requerido</label>
+                        <i class="icon__eye--slash fa-solid fa-eye-slash"></i>
+                        <i class="icon__eye--open fa-solid fa-eye"></i>
+                    </div>
+				</div>
+				<!-- form buttom  -->
+				<div class="form__btn">
+					<button type="submit" id="form__btn">
+						<span>Login</span>
+					</button>
+				</div>
+			</div>
+		</form>
+		<!-- script  -->
+		<script src="form.js"></script>
+	</body>
+</html>
