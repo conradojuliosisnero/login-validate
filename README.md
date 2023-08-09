@@ -1,5 +1,5 @@
 # login-validate
-![image](https://github.com/conradojuliosisnero/login-validate/assets/111514635/6907a0b0-0321-4d62-8648-da6fc107b309)
+![image](https://github.com/conradojuliosisnero/login-validate/assets/111514635/abf75ebf-65e3-4832-9fa1-a73847e6881c)
 
 Description:
 This repository hosts a comprehensive and modern login system developed using cutting-edge web technologies: HTML, SCSS, and JavaScript. The system offers a smooth and secure user experience for authenticating on applications and websites.
