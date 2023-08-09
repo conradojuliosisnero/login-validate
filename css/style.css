@@ -166,14 +166,4 @@ form .form__inputs--container .form__btn button {
 form .form__inputs--container .form__btn button span {
   z-index: 2;
   color: #000000;
-}
-form .form__inputs--container .form__btn button::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #fff081;
-  left: 0;
-  top: 0;
-  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
